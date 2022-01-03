@@ -20,23 +20,19 @@
     "maxItemsToReceive": 4,
     
     "fixed": {
-      "maxValueGain": 1000,
-      "minValueGain": 20,
-      "maxRapGain": 1000,
-      "minRapGain": 20
+      "maxValueGain": 700,
+      "minValueGain": 350,
+      "maxRapGain": 400,
+      "minRapGain": 200
     },
     "percentages": {
-      "maxValueGain": 1.3,
-      "minValueGain": 1.03,
-      "maxRapGain": 1.3,
-      "minRapGain": 1.03
+      "maxValueGain": 1.05,
+      "minValueGain": 1.025,
+      "maxRapGain": 1.03,
+      "minRapGain": 1.015
     },
     "itemsNotToSend": [
-      527365852,
-      19704809,
-      162066057,
-      583721561,
-      19027209
+      527365852
     ],
     "itemsYouDontWant": [
     ],
@@ -45,7 +41,7 @@
       21070012
     ],
     "robux": {
-      "enabled": true,
+      "enabled": false,
       "valuePerRobux": 0.21070012,
       "maxRobuxToGive": 5,
       "minRobuxToGive": 0,
@@ -53,7 +49,7 @@
       "minRobuxToReceive": 50
     },
     "safety": {
-      "compareRobuxPrices": false,
+      "compareRobuxPrices": true,
       "mustHaveHigherRap": true,
       "mustHaveHigherValue": true
     }
@@ -78,7 +74,7 @@
     },
     "inbound": {
       "checkOutboundTrades": true,
-      "checkInBoundTradesCooldown": 30,
+      "checkInBoundTradesCooldown": 500,
       "declineProjecteds": true,
       "declineEqualTrade": true,
       "ignoreWhenGivingTheseItems": [
