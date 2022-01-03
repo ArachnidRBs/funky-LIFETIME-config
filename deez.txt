@@ -1,0 +1,109 @@
+{
+  "authentication": {
+    "robloxSecurityCookie": "",
+    "userId": 1,
+    "SecretKey": ""
+  },
+  "discord": {
+    "webhook": ""
+  },
+  "trading": {
+    "toUse": "fixed",
+    "maxTradeRap": 99999999,
+    "maxTradeValue": 99999999,
+    "maxItemValue": 99999999,
+    "maxItemRap": 99999999,
+    
+    "minItemsToSend": 1,
+    "maxItemsToSend": 4,
+    "minItemsToReceive": 1,
+    "maxItemsToReceive": 4,
+    
+    "fixed": {
+      "maxValueGain": 1000,
+      "minValueGain": 20,
+      "maxRapGain": 1000,
+      "minRapGain": 20
+    },
+    "percentages": {
+      "maxValueGain": 1.3,
+      "minValueGain": 1.03,
+      "maxRapGain": 1.3,
+      "minRapGain": 1.03
+    },
+    "itemsNotToSend": [
+      527365852,
+      19704809,
+      162066057,
+      583721561,
+      19027209
+    ],
+    "itemsYouDontWant": [
+    ],
+    "peopleToAvoid": [
+      48545806,
+      21070012
+    ],
+    "robux": {
+      "enabled": true,
+      "valuePerRobux": 0.21070012,
+      "maxRobuxToGive": 5,
+      "minRobuxToGive": 0,
+      "maxRobuxToReceive": 200,
+      "minRobuxToReceive": 50
+    },
+    "safety": {
+      "compareRobuxPrices": false,
+      "mustHaveHigherRap": true,
+      "mustHaveHigherValue": true
+    }
+  },
+  "caching": {
+    "playerTimeout": 48,
+    "itemTimeout": 48
+  },
+  "bounds": {
+    "outbound": {
+      "checkOutboundTrades": true,
+      "checkOutBoundTradesCooldown": 120,
+      "declineEqualTrade": true,
+      "ignoreWhenGivingTheseItems": [
+        48545806,
+        21070012
+      ],
+      "ignoreWhenReceivingTheseItems": [
+        48545806,
+        21070012
+      ]
+    },
+    "inbound": {
+      "checkOutboundTrades": true,
+      "checkInBoundTradesCooldown": 30,
+      "declineProjecteds": true,
+      "declineEqualTrade": true,
+      "ignoreWhenGivingTheseItems": [
+        48545806,
+        21070012
+      ],
+      "ignoreWhenReceivingTheseItems": [
+        48545806,
+        21070012
+      ]
+    }
+  },
+  "specificTrading": {
+    "enabled": false,
+    "itemsToGive": [
+      74939534
+    ],
+    "itemsToReceive": [
+      1028606
+    ],
+    "robuxToGive": 0,
+    "robuxToReceive": 0
+  },
+  "debug": {
+    "dontSendTrade": false,
+    "printSuccessfulTrades": true
+  }
+}
